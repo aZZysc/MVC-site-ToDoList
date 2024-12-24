@@ -1,0 +1,47 @@
+.task-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px; /* Отступ сверху для navbar */
+    padding: 0 20px;
+}
+
+.task-form input, .task-form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.8); /* Прозрачный текст */
+}
+
+.task-form input {
+    margin-bottom: 10px;
+}
+
+.task-form textarea {
+    height: calc(50vh - 130px);
+    resize: none;
+    color: rgba(0, 0, 0, 0.7); /* Прозрачный текст для описания */
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    background-color: #f7f7f7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.back-btn img, .save-btn img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

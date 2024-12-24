@@ -1,0 +1,62 @@
+.tasks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    height: 100vh;
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #f7f7f7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.logout img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.no-tasks {
+    margin-bottom: 20px;
+}
+
+.no-tasks img {
+    max-width: 250px;
+    height: auto;
+}
+
+.no-tasks p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+.add-task-btn {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffb000;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.add-task-btn img {
+    width: 30px;
+    height: 30px;
+}
